@@ -8,7 +8,7 @@
     .letter
       h5 This just arrived for you:
       br
-      p= @previous_letter.body
+      p= format_letter(@previous_letter.body).html_safe
 
     .letter
       h5 Care to write a response?
