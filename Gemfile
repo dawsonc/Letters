@@ -50,3 +50,5 @@ group :development, :test do
 
   gem 'shoulda-matchers'
 end
+
+ruby '2.1.2'
