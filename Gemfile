@@ -44,7 +44,7 @@ group :development, :test do
   gem 'guard-bundler'
   gem 'guard-shell'
   gem 'terminal-notifier-guard'
-  gem 'rb-fsevent' if `uname` =~ /Darwin/
+  gem 'rb-fsevent'
 
   gem 'capybara'
 
