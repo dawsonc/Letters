@@ -23,6 +23,10 @@ $letter-columns: 8;
     .your-letter {
       @include span-columns($half of $letter-columns);
     }
+
+    a {
+      @include pad(0 0 0 10);
+    }
   }
 }
 
